@@ -37,3 +37,8 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 ## AWS Global Infrastructure
 Globally resilient service, regionally resilient service and a zone resilient service 
 
+AWS Region 
+AWS Edge Locations 
+
+For example, 
+Netflix might run its infrastructure in multiple regions worldwide, but store their data in lots of edge locations allowing it to be delivered at faster speeds and lower latency.

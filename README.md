@@ -19,3 +19,19 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
    
 
 
+
+
+
+
+
+
+
+
+## AWS Fundamentals 
+### Public Internet Zone, AWS Private Services and AWS Public Zone 
+1) Public Internet Zone - this is the public internet, or the environment outside AWS. 
+2) AWS Private Zone - this is private / internal-use only zone. it is isolated and can be configured if needed. 
+3) AWS Public Zone - refers to AWS resources that are accessible from the internet.
+
+
+## AWS Global Infrastructure

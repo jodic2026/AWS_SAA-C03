@@ -35,3 +35,5 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 
 
 ## AWS Global Infrastructure
+Globally resilient service, regionally resilient service and a zone resilient service 
+

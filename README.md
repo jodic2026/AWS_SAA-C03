@@ -37,12 +37,21 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 ## AWS Global Infrastructure
 Globally resilient service, regionally resilient service and a zone resilient service 
 
-AWS Region 
-AWS Edge Locations 
+### AWS Region 
+### AWS Edge Locations 
 
 For example, 
 Netflix might run its infrastructure in multiple regions worldwide, but store their data in lots of edge locations allowing it to be delivered at faster speeds and lower latency.
 
-Some AWS services are either regional or global. 
+### Some AWS services are either regional or global. 
 For example, EC2 is regional service. IAM or Route 53 is global service (no option to select a region in the management console). 
 
+### Region 3 benefits: 
+1) Geographic separation - isolated fault domain
+2) Geopolitical Separation - different governance
+3) Location Control - Performance
+
+Regions and Availability Zones (AZ)
+
+
+ 

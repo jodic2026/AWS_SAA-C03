@@ -35,7 +35,7 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 
 
 ## AWS Global Infrastructure
-Globally resilient service, regionally resilient service and a zone resilient service 
+
 
 ### AWS Region 
 ### AWS Edge Locations 
@@ -51,7 +51,17 @@ For example, EC2 is regional service. IAM or Route 53 is global service (no opti
 2) Geopolitical Separation - different governance
 3) Location Control - Performance
 
-Regions and Availability Zones (AZ)
+### Regions and Availability Zones (AZ)
+Inside regions, there could be multiple Availability Zones. 
+You can design solutions which distribute components across multiple availability zones. 
+If you have 6 availability zones in Sydney, and 2 AZ is impacted/fails then 4 out of 6 servers remain operational. It is a way of building resilience. 
+
+### How to define Service Resilience 
+1) Global resilient service - Works across multiple regions worldwide even if 1 region fails because it is not dependent on a single region (e.g. IAM and Route 53). Designed to survive regional failures. 
+
+2) Region resilient service - Works across multiple Availability Zones (AZs) within one region. If 1 AZ fails, then other AZs in that region can continue. But if the whole region fails, then the service will fail. Designed to survive AZ failures. (e.g. S3, RDS, Load Balancers)
+
+3) AZ resilient service - Runs in one Availability Zone. Only protected within one AZ (least resilient). High chance of failure (e.g. Single EC2 instance, basic setups)
 
 
  

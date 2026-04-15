@@ -63,5 +63,10 @@ If you have 6 availability zones in Sydney, and 2 AZ is impacted/fails then 4 ou
 
 3) AZ resilient service - Runs in one Availability Zone. Only protected within one AZ (least resilient). High chance of failure (e.g. Single EC2 instance, basic setups)
 
+### VPC (Virtual Private Cloud) 
+- Virtual Network inside AWS (a private network inside Amazon Web Services where you launch and manage your resources securely.)
+- A VPC is within
+
+
 
  

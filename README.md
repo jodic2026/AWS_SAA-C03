@@ -42,3 +42,7 @@ AWS Edge Locations
 
 For example, 
 Netflix might run its infrastructure in multiple regions worldwide, but store their data in lots of edge locations allowing it to be delivered at faster speeds and lower latency.
+
+Some AWS services are either regional or global. 
+For example, EC2 is regional service. IAM or Route 53 is global service (no option to select a region in the management console). 
+

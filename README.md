@@ -38,7 +38,24 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 
 
 ### AWS Region 
+Asia Pacific (Singapore) Region
+US East (N. Virginia) Region
+Europe (Frankfurt) Region
+
+### AWS Availability Zones 
+
+Asia Pacific (Singapore):
+
+ap-southeast-1a
+ap-southeast-1b
+ap-southeast-1c
+
 ### AWS Edge Locations 
+
+Manila Edge Location
+Tokyo Edge Location
+Sydney Edge Location
+
 
 For example, 
 Netflix might run its infrastructure in multiple regions worldwide, but store their data in lots of edge locations allowing it to be delivered at faster speeds and lower latency.
@@ -65,7 +82,11 @@ If you have 6 availability zones in Sydney, and 2 AZ is impacted/fails then 4 ou
 
 ### VPC (Virtual Private Cloud) 
 - Virtual Network inside AWS (a private network inside Amazon Web Services where you launch and manage your resources securely.)
-- A VPC is within
+- A VPC is within 1 account and 1 region.
+- Private and Isolated unless you configure otherwise. 
+- Two types: Default VPC and custom VPCs (There can only be 1 default VPC in 1 region, but there can be multiple custom VPCs.)
+- Regionally resilient. 
+- VPC can be deployed in a Region, subdivided into Subnets with Start and End IP Addresses, each subnet is inside one availability zone. 
 
 
 

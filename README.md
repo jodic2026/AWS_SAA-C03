@@ -47,13 +47,17 @@ Europe (Frankfurt) Region
 Asia Pacific (Singapore):
 
 ap-southeast-1a
+
 ap-southeast-1b
+
 ap-southeast-1c
 
 ### AWS Edge Locations 
 
 Manila Edge Location
+
 Tokyo Edge Location
+
 Sydney Edge Location
 
 
@@ -87,7 +91,13 @@ If you have 6 availability zones in Sydney, and 2 AZ is impacted/fails then 4 ou
 - Two types: Default VPC and custom VPCs (There can only be 1 default VPC in 1 region, but there can be multiple custom VPCs.)
 - Regionally resilient. 
 - VPC can be deployed in a Region, subdivided into Subnets with Start and End IP Addresses, each subnet is inside one availability zone. 
+- CIDR
 
+
+### EC2 (Elastic Compute Cloud)
+
+Port 3389 Remote Desktop Protocol (Windows) 
+Port 22 SSH Protocol (Linux)
 
 
  

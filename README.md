@@ -34,9 +34,9 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 3) AWS Public Zone - refers to AWS resources that are accessible from the internet.
 
 
-## AWS Global Infrastructure
+## 
 
-
+### AWS Global Infrastructure
 ### AWS Region 
 Asia Pacific (Singapore) Region
 US East (N. Virginia) Region

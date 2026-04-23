@@ -100,4 +100,16 @@ Port 3389 Remote Desktop Protocol (Windows)
 Port 22 SSH Protocol (Linux)
 
 
- 
+
+### S3 (Simple Storage Service)
+
+### CloudFormation Basics 
+
+### CloudWatch Basics
+
+### Share Responsibility Model
+<img width="2087" height="1083" alt="image" src="https://github.com/user-attachments/assets/bb26f7fb-8e7c-4d45-9d5c-f7d15a2fd65b" />
+
+### High-Availability vs. Fault-Tolerance vs. Disaster Recovery 
+### Route 53 Fundamentals 
+### DNS Record Types 

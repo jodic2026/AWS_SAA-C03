@@ -35,6 +35,36 @@ OSI (Open Systems Interconnection) Model Introduction and 7 Layers
 
 
 
+<img width="722" height="364" alt="image" src="https://github.com/user-attachments/assets/2a85c589-48f3-4938-9ccf-b1ad9fcced48" />
+
+<img width="726" height="185" alt="image" src="https://github.com/user-attachments/assets/095208d9-db64-42be-abdf-c1eafb00951c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## AWS Fundamentals 
 ### Public Internet Zone, AWS Private Services and AWS Public Zone 
